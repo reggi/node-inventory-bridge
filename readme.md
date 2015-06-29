@@ -76,3 +76,7 @@ This will create a `.token` file that you can copy and paste into `.env` and eas
 ```
 heroku config:push
 ```
+
+## Heroku
+
+Note this isn't really a webserver, it connects to the internet but it doesn't need to be accessed on any ports or anything. Heroku has two distinctions for this, `web` process and `worker` process. Soon after deploying even having the `worker` prefix in the `Procfile` my process exited. I ran `heroku ps:scale web=0 worker=1` and now it looks like it's up.
