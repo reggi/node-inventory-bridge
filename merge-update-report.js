@@ -3,7 +3,7 @@ var Fulfillment = require("spexpress")
 var Stitch = require("stitchlabs")
 var Promise = require("bluebird")
 var _ = require("underscore")
-var mergedVariants = require("./merged-variants-v2")
+var mergedVariants = require("./merge-sku")
 var updateStock = require("./update-stock")
 var writeReport = require("./write-report")
 

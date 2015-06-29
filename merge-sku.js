@@ -1,4 +1,4 @@
-var debug = require("debug")("MergeVariants2")
+var debug = require("debug")("MergeSku")
 var Promise = require("bluebird")
 var _ = require("underscore")
 
