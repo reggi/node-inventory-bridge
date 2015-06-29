@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "foreman run node google-server.js",
-    "start": "DEBUG=* foreman run node index.js"
+    "start": "DEBUG=* node index.js",
+    "local": "DEBUG=* foreman run node index.js"
   },
   "author": "",
   "license": "ISC",
