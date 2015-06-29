@@ -27,10 +27,10 @@ There are two modules created specifically for this project. One is the for the 
 
 ## Environment Variables
 
-The two defaults are `CRONTAB` which is set to `0 10 * * *`, which is everyday at 10am, and the timezone which is set to New York.
+The two defaults are `CRONTAB` which is set to `0 1 * * *`, which is everyday at 1:00 AM `America/New_York`, and the timezone which is set to New York. The SPExpress FTP server places a new file every day at 9:15 PM `America/Phoenix`.
 
 ```
-CRONTAB=0 10 * * *
+CRONTAB=0 1 * * *
 TZ=America/New_York
 STITCH_URL=
 STITCH_CLIENT_ID=

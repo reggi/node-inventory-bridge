@@ -94,7 +94,8 @@ function main(){
   return mergedVariants(stitch, fulfillment)
     .then(function(data){
       return updateStock(stitch, {
-        "update": _.first(data.mssVariantsUpdatable, 5),
+        "update": data.mssVariantsUpdatable,
+        //"update": _.first(data.mssVariantsUpdatable, 5),
         //"update": fakeProduct,
         "mss": data.mss
       }).then(function(variants){
