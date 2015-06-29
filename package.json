@@ -1,0 +1,29 @@
+{
+  "name": "node-mss-stitch-quantity-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "foreman run node google-server.js",
+    "start": "DEBUG=* foreman run node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "cron": "^1.0.9",
+    "csv": "^0.4.5",
+    "debug": "^2.2.0",
+    "dotty": "0.0.2",
+    "express": "^4.13.0",
+    "google-oauth-jwt": "^0.1.6",
+    "googleapis": "^2.0.5",
+    "lodash": "^3.9.3",
+    "moment": "^2.10.3",
+    "spexpress": "^1.0.0",
+    "stitchlabs": "^1.0.0",
+    "underscore": "^1.8.3",
+    "underscore.deepclone": "^0.1.1"
+  }
+}
