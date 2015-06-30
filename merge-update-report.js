@@ -47,6 +47,14 @@ function readyReport(message){
       if(variant.response) variant.response
       return "no response"
     }()
+    temp["delta"] = function(){
+      if(!variant.stitch) return false
+      if(!variant.mss) return false
+      var s = parseInt(variant.stitch.stock, 10)
+      var m =  parseInt(variant.mss.QTY, 10)
+      var delta = (m - s) / m
+      return delta.toFixed(2) + "%"
+    }()
     return temp
   }
 }
