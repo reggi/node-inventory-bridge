@@ -38,7 +38,7 @@ function main(stitch, data){
       return variant
     }).catch(function(e){
       variant.response = function(){
-        if(e.body.message) return e.body.message
+        if(e.body && e.body.message) return e.body.message
         return e.message
       }()
       return variant
