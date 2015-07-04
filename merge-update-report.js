@@ -12,7 +12,7 @@ var stitch = new Stitch({
   consumerUrl: process.env.STITCH_URL,
   cacheDir: "./cache",
   cacheOverrde: false,
-  pageSize: 5,
+  pageSize: 3,
   //cacheAlive: ((24 * 60) * 60) * 2
   cacheAlive: ((1 * 60) * 60)
 })
