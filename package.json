@@ -23,7 +23,7 @@
     "googleapis": "^2.0.5",
     "lodash": "^3.9.3",
     "moment": "^2.10.3",
-    "spexpress": "^1.0.0",
+    "spexpress": "^1.0.1",
     "stitchlabs": "^1.0.0",
     "underscore": "^1.8.3",
     "underscore.deepclone": "^0.1.1"
